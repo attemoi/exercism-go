@@ -1,4 +1,9 @@
-MODULES := hello-world lasagna cars-assemble annalyns-infiltration
+MODULES := hello-world \
+	lasagna \
+	cars-assemble \
+	annalyns-infiltration \
+	welcome-to-tech-palace
+
 .PHONY: all clean build $(MODULES)
 .DEFAULT_GOAL := help
 
