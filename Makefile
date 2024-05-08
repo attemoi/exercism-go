@@ -1,4 +1,4 @@
-MODULES := hello-world
+MODULES := hello-world lasagna
 .PHONY: all clean build $(MODULES)
 .DEFAULT_GOAL := help
 
