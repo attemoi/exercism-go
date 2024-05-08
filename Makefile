@@ -2,7 +2,8 @@ MODULES := hello-world \
 	lasagna \
 	cars-assemble \
 	annalyns-infiltration \
-	welcome-to-tech-palace
+	welcome-to-tech-palace \
+	party-robot
 
 .PHONY: all clean build $(MODULES)
 .DEFAULT_GOAL := help
