@@ -1,4 +1,4 @@
-MODULES := hello-world lasagna cars-assemble
+MODULES := hello-world lasagna cars-assemble annalyns-infiltration
 .PHONY: all clean build $(MODULES)
 .DEFAULT_GOAL := help
 
