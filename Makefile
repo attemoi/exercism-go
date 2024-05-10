@@ -1,10 +1,5 @@
-MODULES := hello-world \
-	lasagna \
-	cars-assemble \
-	annalyns-infiltration \
-	welcome-to-tech-palace \
-	party-robot \
-	vehicle-purchase
+# All directory names with trailing slash stripped
+MODULES := $(patsubst %/,%,$(wildcard */))
 
 .PHONY: all clean build $(MODULES)
 .DEFAULT_GOAL := help
